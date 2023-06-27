@@ -10,11 +10,16 @@
     * <u> for Underline
     * <a href="linkUrl">Link Text</a> for links -->
     <string-array name="changelog">
-        <item>First Changelog</item>
-        <item>Second Changelog</item>
+        <item>新增了 3 个图标</item>
         <item>
             <![CDATA[
-            Formatted Changelog with <u>Underline</u>, <b>Bold</b>, <i>Italic</i> and <a href="https://your.link.here">Link</a>.
+            	Newegg, Obsidian, 新东方云教室
+            ]]>
+        </item>
+        <item>修复了 1 个图标</item>
+        <item>
+            <![CDATA[
+            	GIF Helper
             ]]>
         </item>
     </string-array>

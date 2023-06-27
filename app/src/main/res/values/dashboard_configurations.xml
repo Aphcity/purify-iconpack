@@ -44,7 +44,7 @@
         CONFIG: HOME
     -->
     <!-- Home title. This will be shown in the home page -->
-    <string name="home_title">CandyBar Sample</string>
+    <string name="home_title">Purify Icon Pack</string>
 
     <!-- Home image
         If you want to use an image from url, just put the url here
@@ -74,22 +74,22 @@
         -->
     <string name="home_description">
         <![CDATA[
-            <b>You</b> <i>can</i> use <u>formatted text</u> here.
+            <b>I</b> am just <i>improving</i> <u>Pure Icon Pack</u> here.
             <br>
             <br>
-            <a href="https://example.com">Even Links.</u>
+            <a href="https://alist.aphcity.top">Even NAS.</u>
         ]]>
     </string>
 
     <!-- Link to your app's Rate and Review page.
         Leave this empty to disable the "Rate and Review" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="rate_and_review_link">https://play.google.com/store/apps/details?id={{packageName}}</string>
+    <string name="rate_and_review_link"></string>
 
     <!-- Link to your app's main page. It will be used when your user shares your app using "Share" button.
         Leave this empty to disable the "Share" button.
         You can use special keyword `{{packageName}}`, `{{packageName}}` will be replaced with your app's package name -->
-    <string name="share_link">https://play.google.com/store/apps/details?id={{packageName}}</string>
+    <string name="share_link"></string>
 
     <!-- Enable "Check for update" button.
         It needs the option "config_json" to be configured in order to work -->
@@ -98,7 +98,7 @@
     <!-- More apps at Google Play Store
         Link to Google Play Store developer page.
         If you don't want to show this, just leave this empty -->
-    <string name="google_play_dev">https://play.google.com/store/apps/dev?id=your_developer_id</string>
+    <string name="google_play_dev"></string>
 
     <!-- Enables the new flat and outline styled cards everywhere -->
     <bool name="use_flat_card">true</bool>
@@ -120,7 +120,7 @@
 
     <!-- Navigation view header text
         Leave empty if you don't want to show any text -->
-    <string name="navigation_view_header_title">CandyBar</string>
+    <string name="navigation_view_header_title">Purify</string>
 
 
     <!--
@@ -194,7 +194,7 @@
     <!-- Enable non-mailing app to be able to send icon requests.
         By default, you can only send request using mailing apps like Gmail, Outlook etc.
         If you enable this option, your users will be able to send requests using almost any app, not just mailing apps. -->
-    <bool name="enable_non_mail_app_request">false</bool>
+    <bool name="enable_non_mail_app_request">true</bool>
 
     <!-- Hide missing app count
         In home page there is a card that shows information about how many icons are missing and covered by your icon pack app.
@@ -212,12 +212,12 @@
     <!-- Email to use when sending icon requests.
         Regular request email address will be used to send bug reports.
         You can leave "premium_request_email" empty to use the regular request's email to send premium icon requests. -->
-    <string name="regular_request_email">youremail@example.com</string>
+    <string name="regular_request_email">chalk.talisman@gmail.com</string>
     <string name="premium_request_email"></string>
 
     <!-- Icon request email subjects. Leave empty to use default Subject. -->
-    <string name="regular_request_email_subject"></string>
-    <string name="premium_request_email_subject"></string>
+    <string name="regular_request_email_subject">Regular request</string>
+    <string name="premium_request_email_subject">Premium request</string>
 
     <!-- API keys for Pacific Manager.
         You can leave "premium_request_pacific_api_key" empty to use the regular request's pacific api key to send premium icon requests. -->
@@ -278,7 +278,7 @@
     <string name="about_profile_image">profile_picture</string>
 
     <!-- The BIG text which is shown above the description and below the about profile image -->
-    <string name="about_title">Your name</string>
+    <string name="about_title">Aphcity</string>
 
     <!-- The description which is shown below the about title.
         Put your markup/text inside of `<![CDATA[` and `]]>`
@@ -300,16 +300,9 @@
         ex: <string-array name="about_social_links"></string-array>
         -->
     <string-array name="about_social_links">
-        <item>your@email.com</item>
-        <item>https://behance.net/yourusername</item>
-        <item>https://dribbble.com/yourusername</item>
-        <item>https://facebook.com/yourusername</item>
-        <item>https://github.com/yourusername</item>
-        <item>https://instagram.com/yourusername</item>
-        <item>https://pinterest.com/yourusername</item>
-        <item>https://twitter.com/yourusername</item>
-        <!--<item>https://telegram.me/yourusername</item>
-        <item>https://your.webpage.com</item>-->
+        <item>chalk.talisman@gmail.com</item>
+        <item>https://github.com/aphcity</item>
+        <item>https://aphcity.top/</item>
     </string-array>
 
     <!-- Contributors dialog

@@ -17,7 +17,7 @@
 
     <application
         tools:ignore="GoogleAppIndexingWarning,GoogleAppIndexingUrlError"
-        android:name=".applications.CandyBar"
+        android:name="top.aphcity.purify.applications.CandyBar"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:networkSecurityConfig="@xml/network_config"
@@ -27,7 +27,7 @@
         tools:targetApi="n">
 
         <activity
-            android:name=".activities.SplashActivity"
+            android:name="top.aphcity.purify.activities.SplashActivity"
             android:launchMode="singleTop"
             android:noHistory="true"
             android:screenOrientation="portrait"
@@ -43,7 +43,7 @@
         </activity>
 
         <activity
-            android:name=".activities.MainActivity"
+            android:name="top.aphcity.purify.activities.MainActivity"
             android:launchMode="singleTop"
             android:theme="@style/CandyBar.Theme.App"
             android:configChanges="uiMode|orientation|keyboardHidden|screenSize"
@@ -184,7 +184,7 @@
         </activity>
 
         <provider
-            android:name=".services.MuzeiService"
+            android:name="top.aphcity.purify.services.MuzeiService"
             android:authorities="${applicationId}.ArtProvider"
             android:label="@string/muzei_art_source_name"
             android:description="@string/muzei_art_source_desc"
